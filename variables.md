@@ -48,4 +48,9 @@ You don't need to type `var` if you are declaring variables inside of functions,
 > Note: But if you are declaring variables outside the functions you cannot use `:=` construct as it is not available. You will need to use the `var` keyword. 
 
 
+## Constants
+
+The `const` keyword is used to declare a constant. A `const` could be a character, string, boolean, or numeric value. 
+
+> Note: Constants cannot be declared using `:=`. 
 

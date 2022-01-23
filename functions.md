@@ -113,7 +113,30 @@ func main(){
 
 ```
 
+**Interesting:**
 
+This is quite interesting Golang does not allow you to return the same variable which you passed as parameter with `naked return`. It will generate an error as duplicate argument. 
+
+``` golang
+
+// Invalid ...
+func Sqrt(x float64) (x float64) {
+	return 
+}
+
+// Invalid ...
+func Sqrt(x float64) (x float64) {
+	x +=1
+	return 
+}
+
+// Valid ...
+func Sqrt(x float64) (t float64) {
+	t = x 
+	return 
+}
+
+```
 
 
 
