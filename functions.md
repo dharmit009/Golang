@@ -2,7 +2,7 @@
 
 A function in golang can be defined with zero or more arguments. The keyword used to define functions is `func`.
 
-Examples for functions: 
+**Example:**
 
 ``` golang 
 
@@ -23,7 +23,9 @@ func functionName(paraX datatypeofX, paraY datatypeOfY) returnType{
 
 * Short Hand for same argument types. 
 
-If the dataTypes of arguments are same you can share the type between them ... Here is an Example: 
+If the dataTypes of arguments are same you can share the type between them ... 
+
+**Example:**
 
 ``` golang
 
@@ -82,4 +84,42 @@ func main(){
 }
 
 ```
+
+## Named return values: 
+
+Named return functions are defined at the top of the function.
+Named return values are generally used to document the meaning of return values. When you define functions with named return values you can use `return` keyword without any arguments this will return values you stated above. This is also known as `naked return`. 
+
+> Note: Used naked return in smaller functions only else it can affect the readability of the code.
+
+**Example:**
+
+``` golang
+
+package main
+
+import "fmt"
+
+func split(sum int) (x, y int){
+	x = sum * 4/9
+	y = sum - x
+	return 
+}
+
+func main(){
+	fmt.Println(split(17))
+
+}
+
+```
+
+
+
+
+
+
+
+
+
+
 
