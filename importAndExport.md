@@ -24,4 +24,4 @@ import(
 
 # Exported Names: 
 
-Anything which starts with a capital letter is an exported name in go for example: `pi`. 
+Anything which starts with a capital letter is an exported name in go for example: `Pi` of math package. 

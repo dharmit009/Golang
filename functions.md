@@ -21,7 +21,7 @@ func functionName(paraX datatypeofX, paraY datatypeOfY) returnType{
 
 ```
 
-* Short Hand for same argument types. 
+# Short Hand for same argument types. 
 
 If the dataTypes of arguments are same you can share the type between them ... 
 
@@ -48,13 +48,13 @@ func add(x, y int) int {
 Yes this works as expected !!
 
 
-```
+``` golang
+
 package main
 
 import "fmt"
 
-// Without short hand:
-func person(x, y, name) {
+func person(x, y int, name string) {
 	fmt.Println("X: ", x) 
 	fmt.Println("Y: ", y) 
 	fmt.Println("Name: ", name) 
@@ -63,6 +63,23 @@ func person(x, y, name) {
 ```
 **DOUBT:** Can golang have functions with void return type?
 
+> yes.
+
+``` golang
+
+package main
+
+import "fmt"
+
+func greet() {
+	fmt.Println("Hello")
+}
+
+func main() {
+		greet()
+}
+
+```
 
 ## Multiple Return values: 
 
@@ -137,12 +154,4 @@ func Sqrt(x float64) (t float64) {
 }
 
 ```
-
-
-
-
-
-
-
-
 

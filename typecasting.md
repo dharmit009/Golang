@@ -2,14 +2,17 @@
 
 Typecasting or type conversion is process of changing a value from one data type to another. In Golang the typecasting is pretty easy but it's explicit. 
 
-* Notation for Typecasting: 
+**Notation for Typecasting:** 
 
+``` golang
 var a = dataType(value)
 var b = dataType(value)
 
-Or 
+// Or 
 
 a := dataType(value)
 b := dataType(value)
+
+```
 
 

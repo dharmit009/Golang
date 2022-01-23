@@ -8,7 +8,7 @@ package main
 
 import (
 	"fmt"
-		"runtime"
+	"runtime"
 )
 
 func main() {
