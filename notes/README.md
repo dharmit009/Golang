@@ -1,2 +1,0 @@
-# Golang
-Basic of Golang
