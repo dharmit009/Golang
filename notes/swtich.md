@@ -26,3 +26,9 @@ func main() {
 }
 
 ```
+
+# Switch with no condition:
+
+A `switch` with no condition in Golang is same as `switch true` this construct could be a clean way to write long `if-then-else` chains. 
+
+
