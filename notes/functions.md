@@ -21,7 +21,7 @@ func functionName(paraX datatypeofX, paraY datatypeOfY) returnType{
 
 ```
 
-# Short Hand for same argument types. 
+## Short Hand for same argument types. 
 
 If the dataTypes of arguments are same you can share the type between them ... 
 
@@ -76,7 +76,7 @@ func greet() {
 }
 
 func main() {
-		greet()
+	greet()
 }
 
 ```

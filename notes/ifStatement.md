@@ -1,6 +1,6 @@
 # If Statement: 
 
-The keyword `if` is used to declare the statement. It is not necessary to sound the expression by parentheses () but {} are required just like `for` loop. 
+The keyword `if` is used to declare the statement. It is not necessary to sound the expression by parentheses `( )` but `{ }` are required just like `for` loop. 
 
 **Notation:**
 

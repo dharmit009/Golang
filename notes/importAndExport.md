@@ -1,8 +1,8 @@
 # Imports: 
 
-* What are factored import statements?
+**What are factored import statements?**
 
-Regular Import Statements: 
+* Regular Import Statements: 
 
 ``` golang
 
@@ -11,7 +11,7 @@ import "math/rand"
 
 ```
 
-Factored Import Statements: 
+* Factored Import Statements: 
 
 ``` golang
 
@@ -22,6 +22,22 @@ import(
 
 ```
 
-# Exported Names: 
+## Exported Names: 
 
 Anything which starts with a capital letter is an exported name in go for example: `Pi` of math package. 
+
+``` golang
+
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func main(){
+	pi := math.Pi; 
+	fmt.Println("The Value of Pi is ", pi)
+}
+
+```

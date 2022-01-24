@@ -4,8 +4,6 @@ Go has pointers. A pointer holds the memory address of a value. The `&` operator
 
 **Notation:** `var p *int`
 
-**Example:**
-
 ``` golang
 
 i := 32 // i is variable stored in memory. 
@@ -16,7 +14,7 @@ fmt.Println(*p)
 
 ```
 
-**Sample:**
+**Example:**
 
 ``` golang 
 

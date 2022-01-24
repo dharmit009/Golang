@@ -1,6 +1,6 @@
 # For loop:
 
-Golang has only one looping construct and that is `for` loop. 
+> Golang has only one looping construct and that is `for` loop. The `for` keyword is also used for `while`, `forever` aka infinite loop, and continued for loop. 
 
 A `for` loop has three main components in it which are seperated by semicolons. The Three components are as follows:
 
