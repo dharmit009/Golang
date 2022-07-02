@@ -1,8 +1,8 @@
-# Basic Data Types: 
+# Basic Data Types:
 
-Go has one of the most comprehensive list of data types and they are as follows: 
+Go has one of the most comprehensive list of data types and they are as follows:
 
-* bool 
+* bool
 
 * string
 
@@ -17,31 +17,32 @@ Go has one of the most comprehensive list of data types and they are as follows:
 	* uint16
 	* uint32
 	* uint64
-	* uintprt: Looks like this is unsigned integer pointer. 
-
-* byte (alias for uint8)
-
-* rune (alias for int32): represents Unicode code point.
+	* uintprt: Looks like this is unsigned integer pointer.
 
 * float (Defaults to float32)
 	* float32
 	* float64
 
-* Complex Numbers 
+* byte (alias for uint8)
+
+* rune (alias for int32): represents Unicode code point.
+
+
+* Complex Numbers
 	* complex64
 	* complex128
 
 Yeah Golang even supports complex numbers (2 + 4i).
 
 **DOUBT:** What's a Unicode Code point?
-	
+
 > The code points are often expressed with "U+" followed by a code in base 16 (hexadecimal). For example,
 > the code point for "A" is U+0041, and for A "code point" is a slot in Unicode, representing a character.
 > Depending on your choice of encoding scheme, and the number of that slot, the number.
 
 **Example Code:**
 
-``` golang 
+``` golang
 
 package	main
 
@@ -64,15 +65,15 @@ func main(){
 
 ```
 
-**Zero Values:** 
+**Zero Values:**
 
-When no value is provided to the variables they are explicitly initialed with their zero values which depends on the data type. 
+When no value is provided to the variables they are explicitly initialed with their zero values which depends on the data type.
 
-Here are the zero values according to the data types: 
+Here are the zero values according to the data types:
 
-* `0` for Numeric types. 
-* `False` for boolean type of values. 
-* `""` (empty string) for strings. 
+* `0` for Numeric types.
+* `False` for boolean type of values.
+* `""` (empty string) for strings.
 
 
 
