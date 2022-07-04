@@ -1,8 +1,14 @@
 # Pointers
 
-Go has pointers. A pointer holds the memory address of a value. 
-The `&` operator generates a pointer to an operand. 
-The `*` operator denotes the pointer's underlying value. 
+Golang supports pointers by default. Pointers are used to hold memory
+addresses. Further this memory addresses can be used to manipulate /
+change / modify the underlying values which are stored in that memory
+block.
+
+| Operator | Description.                         |
+|----------|--------------------------------------|
+| &        | returns the address of the variable. |
+| *        | returns the value of the variable.   |
 
 **Notation:** `var p *int`
 
@@ -16,7 +22,7 @@ func main (){
     var x int = 1
     var y int = 0
 
-    var pointer *int = &x 
+    var pointer *int = &x
 
     y = *pointer
 
@@ -32,3 +38,28 @@ func main (){
 
 }
 ```
+
+## new Function:
+
+A alternative way to create a variable.
+A new() function creates a variable and returns a pointer to the
+variable.
+
+variable is initialized to zero.
+
+The new() function returns pointer to a variable.
+
+``` golang
+package main
+
+import "fmt"
+
+func main(){
+
+    ptr := new(int)
+    *ptr := 4
+}
+
+```
+
+

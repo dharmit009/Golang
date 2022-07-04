@@ -17,4 +17,9 @@ func main() {
 	fmt.Println("\nAfter using y=*p (pointer)")
 	fmt.Println("X: ", x)
 	fmt.Println("Y: ", y)
+
+	ptr := new(int)
+	*ptr = 4
+	fmt.Println("\nValue Of ptr: ", *ptr)
+	fmt.Println("Address Of ptr: ", ptr)
 }
