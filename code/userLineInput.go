@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println("vim-go")
+	fmt.Println("User Line Input")
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Println("Enter a line: ")
 	name, _ := reader.ReadString('\n')
