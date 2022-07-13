@@ -1,21 +1,26 @@
 # Structs
 
-A `struct` is a collection of fields. 
+A `struct` is a collection of fields.
+It is used to Aggregate data type & group together other
+objects of arbitrary type.
 
-``` golang 
+``` golang
 
-package main 
+package main
 
 import "fmt"
 
 type Cube struct {
-	X int 
+	X int
 	Y int
 	Z int
 }
 
 func main(){
+    c1 := new (Cube)
+    c1.X = 10
 	fmt.Println(Cube{1,2,3})
+	fmt.Println(c1.X)
 }
 
 ```
@@ -40,3 +45,5 @@ func main() {
 }
 
 ```
+
+

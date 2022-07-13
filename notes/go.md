@@ -4,7 +4,7 @@
 language. GO is compiled language though it has some features of
 interpreted language for e.g: *Garbage Collection*.
 
-OOP's
+## OOP's
 
 **GO** does not uses the term class instead we use *structs*.
 
