@@ -40,6 +40,3 @@ err := ioutil.WriteFile("outline.txt", dat, 0777)
 
 ```
 
-
-
-

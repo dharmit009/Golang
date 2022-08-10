@@ -9,9 +9,7 @@ type Point struct {
 }
 
 func (p *Point) getData() {
-
 	fmt.Println("Enter a number: ")
-
 	fmt.Println("Enter a number: ")
 }
 
