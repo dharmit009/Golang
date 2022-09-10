@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("tagless-switch")
 
+	fmt.Println("tagless-switch")
 	var x = 3
 	switch {
 	case x < 5:
